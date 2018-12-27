@@ -73,7 +73,4 @@ app.get("/research", function (req, res) {
 
 
 
-app.listen("3000", function () {
-    console.log("The server is connected!");
-    
-})
+app.listen(process.env.PORT)
