@@ -1,0 +1,175 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Thasadith;
+
+} 
+nav {
+    font-weight: 700
+}
+
+.welcome{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.welcomePara{
+    font-size: 1.5rem;
+}
+
+.textbox {
+    font-size: 1.2rem
+}
+.bold {
+    font-weight: 700;
+}
+
+.emphasis{
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+}
+.largeIcon{
+    font-size: 3rem;
+}
+
+.medIcon{
+    font-size: 2rem;
+}
+.icon {
+    color: black;
+}
+
+.icon :hover {
+    transition: linear 0.25s;
+   color: #30CFD0
+}
+
+.aqua{
+    background: #30CFD0
+}
+
+.red{
+    background: red;
+}
+
+.black{
+    color: black;
+}
+
+.green {
+    background: green;
+}
+
+.whitefnt{
+    color: white;
+}
+
+.projects :hover{
+    background: #30CFD0;
+    color: white;
+    text-decoration: none;
+}
+.spacecreate{
+    padding-bottom: 250px;
+    padding-top: 250px;
+}
+
+.scrolled{
+    background: #30CFD0;
+    transition: linear 0.25s;
+}
+.spacecreate1{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.spacecreate2{
+    padding-bottom: 230px;
+    padding-top: 230px;
+}
+.displaynone {
+    display: none
+}
+.displaynone2 {
+    display: none
+}
+.displaynone :hover {
+    
+    display: flex;
+
+}
+.opacity {
+    opacity: 0;
+}
+.hoverRvl :hover {
+    background: #30CFD0;
+   
+}
+#Xp { 
+    display: none; 
+    color: white;
+}
+#xpDiv:hover #Xp { 
+    display: block;
+ }
+
+#xpDiv:hover #h1Ldr{
+    display: none;
+}
+
+#xpDiv:hover #h1Sft{
+    display: none;
+}
+#xpDiv:hover #h1Misc{
+    display: none;
+}
+
+#btncolor{
+    color: #30CFD0;
+    border-color: #30CFD0;
+    
+}
+
+#btncolor:hover {
+    background-color: #30CFD0;
+    color: white;
+}
+#btncolor:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(48,207,208,.25);
+}
+
+.bordercurve{
+    border-radius: 25px
+}
+
+.pad1{ 
+    padding-top: 75px;
+    padding-bottom: 75px
+}
+
+ #transition {
+  
+     -webkit-animation: slidein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: slidein 2s; /* Firefox < 16 */
+        -ms-animation: slidein 2s; /* Internet Explorer */
+         -o-animation: slidein 2s; /* Opera < 12.1 */
+            animation: slidein 2s;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+
