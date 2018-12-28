@@ -4,8 +4,8 @@ var bodyParser = require("body-parser")
 var mongoose = require("mongoose")
 
 
-mongoose.connect("mongodb://localhost:27017/personalWebsite", { useNewUrlParser: true });
-
+// mongoose.connect("mongodb://localhost:27017/personalWebsite", { useNewUrlParser: true });
+mongoose.connect("mongodb://apaul:a29paul@ds115352.mlab.com:15352/personal_website", { useNewUrlParser: true });
 //Schema Set-up
 
 var contactSchema = new mongoose.Schema({
