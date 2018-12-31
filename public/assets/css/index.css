@@ -26,10 +26,7 @@ nav {
 }
 
 .emphasis{
-	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+	color: #30CFD0;
     font-weight: 700;
 }
 .largeIcon{
