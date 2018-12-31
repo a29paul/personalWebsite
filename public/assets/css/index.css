@@ -26,7 +26,10 @@ nav {
 }
 
 .emphasis{
-	color: #30CFD0;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     font-weight: 700;
 }
 .largeIcon{
@@ -105,22 +108,23 @@ nav {
     background: #30CFD0;
    
 }
-#Xp { 
+.Xp { 
     display: none; 
-    color: white;
+    
 }
-#xpDiv:hover #Xp { 
+.xpDiv:hover .Xp { 
     display: block;
+    color: white;
  }
 
-#xpDiv:hover #h1Ldr{
+.xpDiv:hover .h1Ldr{
     display: none;
 }
 
-#xpDiv:hover #h1Sft{
+.xpDiv:hover .h1Sft{
     display: none;
 }
-#xpDiv:hover #h1Misc{
+.xpDiv:hover .h1Misc{
     display: none;
 }
 
@@ -168,5 +172,14 @@ nav {
   }
 }
 
+.backgroundColor {
+    background: #30CFD0
 
+}
+
+
+.reveal {
+     display: block;
+     color: white;
+}
 
